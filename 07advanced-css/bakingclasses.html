@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Bake My Day: Home</title>
+        
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        
+        <meta charset="UTF-8">
+        
+        <meta name="description" content="Learn more about baking for beginners">
+        
+        <meta name="author" content="Kaitlyn Mayo">
+        
+        <link rel="stylesheet" href="styles.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        
+        <link rel="icon" type="image/x-icon" href="favicon.ico">       
+    </head>
+    <body>
+        <!--Start of the page header-->
+        <header>
+            <img src="images/logo.png" alt="site logo" width="82" height="70">
+            
+            <div>
+                <h1>Bake My Day</h1>
+                <p><em>Your Daily Dose of Sweet Inspiration</em></p>
+            </div>
+        </header>
+        
+        <!--Start of the page navigation-->
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT ME</a></li>
+                <li><a href="recipes.html">RECIPES</a></li> 
+                <li class="active"><a href="bakingclasses.html">BAKING CLASS SIGNUP</a></li>
+            </ul>   
+        </nav>
+        
+        <!--Start of the page content-->
+        <main>
+        <h1>Baking Class Signup</h1>
+        <form method="get" class="myForm" action="thanks.html">
+            
+            <fieldset>
+            <legend>Baker's Details</legend>
+                <label>First Name* <input type="text" name="fname" required></label> 
+                
+                <label>Last Name* <input type="text" name="fname" required></label> 
+                
+                <label>Cell Number*<input type="tel" name="phone" required placeholder="(000)-000-0000"></label>
+                
+                <label>Email Address*<input type="email" name="email" required></label> 
+            </fieldset>
+            
+            <fieldset>
+            <legend>Skill Level</legend>
+                <label><input type="radio" name="skill" value="beginner">Beginner</label>
+        
+                <label><input type="radio" name="skill" value="intermediate">Intermediate</label>
+            
+                <label><input type="radio" name="skill" value="advanced">Advanced</label>  
+            </fieldset>
+
+            <fieldset>
+            <legend>Post-Class Engagement</legend>
+                <label><input type="checkbox" name="followup" value="chosen">Send me follow-up recipes from the class.</label>
+            
+                <label><input type="checkbox" name="exclusive" value="chosen">Send me exclusive tips and tricks from the instructor after the class.</label>
+                
+                <label><input type="checkbox" name="recording" value="chosen">Give me access to a recording of the class for future reference.</label>
+            
+                <label>Select your preferred class date and time  
+                <select name="class">
+                <option value="none">Please Select</option>
+                
+                <option value="tenth">January 10, 2024 - 10:00 AM</option>
+                
+                <option value="fifteenth">January 15, 2024 - 2:00 PM</option>
+                
+                <option value="twentieth">January 20, 2024 - 5:00 PM</option>
+            </select>
+            </label>
+            </fieldset>  
+
+                
+            <label>Questions?
+            <textarea name="questions" placeholder="Please Let Us Know If You Have Any Questions Before The Class!"></textarea>
+            </label>
+                
+            <input type="submit" value="Submit Form">
+        </form>
+        </main>
+        
+        <!--Start of the page footer-->
+        <footer>
+            <p>&copy; 2024 &bull; Kaitlyn Mayo &bull;
+            <a href="mailto:11062712@uvu.edu">Email</a> &bull;
+            <a href="tel:000-000-0000">Call</a></p>
+        </footer>
+    </body>
