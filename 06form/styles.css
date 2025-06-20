@@ -1,0 +1,230 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px; 
+    font-weight: 300;
+    margin: 0;
+}
+
+/* Header Stuff Here */
+header {
+    font-family: 'Gloock', serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #606762;
+    padding: 1rem 2vw;
+}
+
+header h1 {
+    margin: 0;
+    color: #fff;
+    letter-spacing: 2px
+}
+
+header p {
+    margin: 0;
+    color: #c29c6b;
+    letter-spacing: .5px;
+}
+
+/* Nav Stuff Here */
+nav {
+    background-color: #979881;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem; 
+}
+
+nav li.active a {
+    background-color: #606762;
+    color: #fff;
+}
+
+nav a:hover{
+    color: #9d583f;
+}
+
+/* Main Stuff Here */
+main {
+    padding: 1rem 2vw;
+    background-color: #fff;
+}
+
+main h1 {
+    color: #9d583f;
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main h2 {
+    color: #9d583f; 
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;;
+    margin-bottom: .2rem;
+}
+
+main h3 {
+    color: #606762; 
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;;
+    margin-bottom: .2rem;
+}
+
+main h4 {
+    color: #606762; 
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;;
+    margin-bottom: .2rem;
+}
+
+main p {
+    color: #2f3133;
+    margin: 0 0 .3rem 0;
+}
+
+main ol {
+    padding: .5rem 3vw; 
+}
+
+main dl dt {
+    color: #606762;
+    font-weight: 700;
+}
+
+main dl dd {
+    font-size: .9rem;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main address{
+    font-style: normal;
+    color: #c29c6b;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #c29c6b;
+    border-radius: .5rem;
+}
+
+main a {
+    color: #606762;
+}
+
+main a:hover {
+    color: #c29c6b;
+}
+
+figure.home {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+figure.home img {
+    width: 100%;
+    height: auto;
+}
+
+figure.home figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 5% 10%
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #9d583f;
+}
+
+.myForm fieldset {
+    border: 2px solid #c29c6b;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.myForm legend {
+    color: #c29c6b;
+    font-size: 1rem;
+}
+
+.myForm label {
+    margin: .5rem
+}
+
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm [type=email], .myForm textarea  {
+    display: block;
+}
+
+.myForm [type=text], .myForm [type=tel], .myForm [type=email], .myForm select, .myForm textarea {
+    border: solid 1px #606762;
+    padding: .3rem;
+    width: 200px;
+    border-radius: .3rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    color: #2f3133;
+}
+
+.myForm textarea{
+    height: 8rem;
+}
+
+.myForm :required {
+    background-color: #D9D9D1;
+}
+
+.myForm [type=submit] {
+    background-color: #c29c6b;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: #fff;
+    margin: 1rem 0 0 0.5vw;
+
+}
+
+/* Footer Stuff Here */
+footer {
+    background-color: #979881;
+    text-align: center;
+    color: #fff;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+
+footer a {
+    color: #fff;
+}
