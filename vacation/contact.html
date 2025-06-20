@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Budget Vacations</title>
+        
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        
+        <meta charset="UTF-8">
+        
+        <meta name="description" content="learn about vacation destinations">
+        
+        <meta name="author" content="Kaitlyn Mayo">
+        
+        <link rel="stylesheet" href="styles.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gloock&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- start of the page header -->
+        <header>
+            <div>
+                <h1>Budget Vacations</h1>
+                <p><em>Big Adventures, Small Budgets!</em></p>
+            </div>
+        </header>
+        
+        <!-- start of the page navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                
+                <li><a href="destinations.html">DESTINATIONS</a></li>
+                
+                <li><a href="video.html">VISUAL VOYAGE</a></li>
+                
+                <li><a href="packages.html">PACKAGES</a></li>
+                                
+                <li class="active"><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+        
+        <!-- start of the main page -->
+        <main>
+            <h1>Contact Us</h1>
+            <form method="get" class="myForm" action="thanks.html">
+                
+            <fieldset>
+            <legend>Contact Information</legend>
+                <label>First Name* <input type="text" name="fname" required></label> 
+                
+                <label>Last Name* <input type="text" name="fname" required></label> 
+                
+                <label>Cell Number*<input type="tel" name="phone" required></label>
+                
+                <label>Email Address*<input type="email" name="email" required></label> 
+            </fieldset>
+            
+            <fieldset>
+            <legend>How would you like us to contact you?</legend>
+                <label><input type="radio" name="contact" value="email">Email</label>
+        
+                <label><input type="radio" name="contact" value="phone">Phone Call</label>
+            
+                <label><input type="radio" name="contact" value="text">Text Message</label>  
+            </fieldset>
+
+            <fieldset>
+                <label>Let us know the best time to contact you
+                <select name="time">
+                <option value="none">Please Select</option>
+                
+                <option value="morning">Morning (9:00 AM - 12:00 PM)</option>
+                
+                <option value="afternoon">Afternoon (12:00 PM - 3:00 PM)</option>
+                
+                <option value="evening"> Evening (3:00 PM - 6:00 PM)</option>
+                </select>
+                </label>
+            </fieldset>  
+
+                
+            <label>Questions?
+            <textarea name="questions" placeholder="Please Let Us Know If You Have Any Questions Before The Class!"></textarea>
+            </label>
+                
+            <input type="submit" value="Submit Form">
+        </form>
+        </main>
+        
+        <!--start of the page footer -->
+        <footer>
+            <p>&copy; 2024 &bull; Budget Vacations &bull;
+            <a href="mailto:budgetvacations@gmail.com">Email</a> &bull;
+            <a href="tel:123-456-7890">Call</a></p>
+        </footer>  
+    </body>
+</html>

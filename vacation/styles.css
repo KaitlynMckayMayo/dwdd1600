@@ -1,0 +1,254 @@
+/*Prevent Problems With Different Browsers*/
+* {box-sizing: border-box;}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* Header Stuff Here */
+header {
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #fff;
+    padding: 1.5rem 1vw;
+    display: flex;
+    align-items: flex-end;
+}
+
+header div {
+    padding-left: 1vw;
+}
+
+header h1 {
+    margin: 0;
+    color: #2F4156;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin: 0;
+    color: #567C8D;
+    letter-spacing: .7px;
+}
+
+/* Nav Stuff Here */
+/*Small Screens*/
+@media only screen and (max-width: 600px){
+    nav ul {
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+    }
+    
+    nav a {
+        display: block;
+        padding: .8rem;
+        text-decoration: none;
+        font-weight: 400;
+        text-align: center;
+        border-bottom: solid 1.5px #2F4156;
+        color: #2F4156;      
+    }
+    
+    nav .active a {
+        background-color: #2F4156;
+        background-image: linear-gradient(#2F4156, #212D3A);
+        color: #fff;
+    }
+} /*end of the media query*/
+
+/*Wide Screens*/
+@media only screen and (min-width: 601px){
+    nav {
+    background-color: #2F4156;
+    }
+
+    nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+    }
+
+    nav a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    display: block;
+    padding: .83rem 2rem; 
+    }
+
+    nav li.active a {
+    background-color: #C8D9E6;
+    background-image: linear-gradient(#C8D9E6, #A1AFB7);
+    color: #2F4156;
+    }
+
+    nav a:hover{
+    color: #A1AFB7;
+    }
+} /*end of the media query*/
+
+/* Main Stuff Here */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #2F4156;
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main h2 {
+    color: #567C8D; 
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;;
+    margin-bottom: .2rem;
+}
+
+main p {
+    color: #2F3133;
+    margin: 0 0 .3rem 0;
+}
+
+main ul {
+    list-style-type: circle;
+}
+    
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: 0.9rem;
+}
+
+div#testimonials {
+    margin: 1vw;
+}
+
+main a {
+    color: #A1AFB7;
+}
+
+main a:hover {
+    color: #567C8D; 
+}
+
+figure.tourist {
+    width: 27%;
+    margin: 2.7vw 0.5vw 0 2vw;
+    float: right;
+}
+
+figure.tourist img {
+    width: 100%;
+    height: auto;
+}
+
+figure.tourist figcaption {
+    text-align: center;
+    font-size: .80rem;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 2% 2%
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.gallery img:hover {
+    box-shadow: 2px 2px 12px black;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .9rem;
+    color: #567C8D;
+}
+
+div#package {
+    border: 3px solid #A1AFB7;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.myForm fieldset {
+    border: 2px solid #567C8D;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.myForm legend {
+    color: #567C8D;
+    font-size: 1rem;
+}
+
+.myForm label {
+    margin: .4rem
+}
+
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm [type=email], .myForm textarea  {
+    display: block;
+}
+
+.myForm [type=text], .myForm [type=tel], .myForm [type=email], .myForm select, .myForm textarea {
+    border: solid 1px #A1AFB7;
+    padding: .3rem;
+    width: 200px;
+    border-radius: .3rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 400;
+    color: #2F3133;
+}
+
+.myForm textarea{
+    height: 10rem;
+    width: 20rem; 
+}
+
+.myForm :required {
+    background-color: #C8D9E6;
+}
+
+.myForm [type=submit] {
+    background-color: #567C8D;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: #fff;
+    margin: 1rem 0 0 0.5vw;
+}
+
+/* Footer Stuff Here */
+footer {
+    background-color: #fff;
+    text-align: center;
+    color: #2F4156;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+
+footer a {
+    color: #2F4156;
+}
+
+header, nav, main, footer {
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+
+
+  
